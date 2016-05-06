@@ -1,0 +1,117 @@
+body {
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+.fixed-left {position: fixed;left: 10px;bottom: 10px;}
+.fixed-right {position: fixed;bottom: 10px;right: 0;}
+.flex_row {
+    display: flex;
+}
+
+.table__cell {
+    width: 700px;
+    padding: 0px 35px 5px !important;
+}
+
+.form__delete {
+    margin-left: 5px;
+}
+
+.table__cell.over {
+    border: 2px dashed #000;
+}
+
+.table__img.over {
+    opacity: 1;
+}
+
+.sticker {
+    display: block;
+    cursor: pointer;
+    padding: 0px 5px 0px;
+    margin: 4px auto 0px auto;
+    width: 350px;
+    font: 16px cursive;
+    line-height: 1.5;
+    border: 0;
+    border-radius: 3px;
+    background: -webkit-linear-gradient(#F9EFAF, #F7E98D);
+    background: -moz-linear-gradient(#F9EFAF, #F7E98D);
+    background: -o-linear-gradient(#F9EFAF, #F7E98D);
+    background: -ms-linear-gradient(#F9EFAF, #F7E98D);
+    background: linear-gradient(#F9EFAF, #F7E98D);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: box-shadow 0.5s ease;
+    font-smoothing: subpixel-antialiased;
+}
+
+.table__task:hover {
+    box-shadow: 0 5px 8px rgba(0, 0, 0, 0.15);
+}
+
+.table__task:focus {
+    box-shadow: 0 5px 12px rgba(0, 0, 0, 0.2);
+    outline: none;
+}
+
+.ui-state-highlight {
+    height: 1.5em;
+    line-height: 1.2em;
+    background: grey;
+    width:250px;
+    margin: 10px auto;
+}
+
+.table__img {
+    width: initial;
+    /* right: 10px; */
+    /* bottom: 10px; */
+    opacity: 0.5;
+    padding: 40px 0 0 60px;
+}
+
+.hidden {
+    display: none;
+}
+
+.task__name {
+    font-weight: bold;
+    font-size: 17px;
+    text-align: center;
+}
+
+.task__desc {
+    margin-top: 10px;
+    word-break: break-word;
+}
+
+.new-drop {
+    /* left: 10px; */
+    /* bottom: 10px; */
+    margin: 0;
+    padding: 20px;
+    width: 250px;
+}
+.table {margin-bottom: 5px !important;}
+.worker__delete {width: 28px;cursor: pointer;}
+.worker__name {
+    font-weight: bold;
+    cursor: pointer;
+    color: #337ab7;
+}
+td:first-child {
+    vertical-align: middle !important;
+    text-align: center;
+}
+.worker__add {width: 45px;cursor: pointer;}
+.task__time {text-align: right;}
+.worker__observe {
+    width: 30px;
+}
+.dashboard {
+    margin-left: 15% !important;
+}
+th {
+    text-align: center !important;
+}
